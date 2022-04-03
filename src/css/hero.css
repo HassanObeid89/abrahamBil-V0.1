@@ -37,6 +37,7 @@
 .hero_container .slagen button:hover {
     background-color: white;
     border: solid rgb(232, 69, 69);
+    color: black;
 }
 
 .hero_container img {
