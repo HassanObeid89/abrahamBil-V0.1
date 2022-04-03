@@ -7,7 +7,7 @@ export default function Hero() {
       <label className="slagen">
         <h1>Sälj Bilen Och Få Betalt Direkt!</h1>
         <span>Vi köper din bil oavsett skick.</span>
-        <button>Ring Oss</button>
+        <a href="+46765856630">Ring Oss</a>
       </label>
     </div>
   );
