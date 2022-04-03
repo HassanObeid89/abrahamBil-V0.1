@@ -22,7 +22,7 @@
     font-size: 1em;
 }
 
-.hero_container .slagen button {
+.hero_container .slagen a {
     width: 120px;
     margin: 16px auto;
     border: none;
@@ -32,9 +32,11 @@
     font-weight: bold;
     color: white;
     font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.hero_container .slagen button:hover {
+.hero_container .slagen a:hover {
     background-color: white;
     border: solid rgb(232, 69, 69);
     color: black;
