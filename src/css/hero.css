@@ -1,0 +1,46 @@
+.hero_container {
+  width: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  
+}
+
+.hero_container .slagen{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero_container .slagen h1{
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+.hero_container .slagen span{
+    font-size: 1em;
+}
+
+.hero_container .slagen button {
+    width: 120px;
+    margin: 16px auto;
+    border: none;
+    background-color: rgb(232, 69, 69);
+    padding: 15px;
+    border-radius: 60px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+}
+
+.hero_container .slagen button:hover {
+    background-color: white;
+    border: solid rgb(232, 69, 69);
+}
+
+.hero_container img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 60%;
+}
