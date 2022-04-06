@@ -1,0 +1,38 @@
+.benefits hr {
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.benefits{
+    padding: 0 50px;
+}
+.benefits ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  row-gap: 50px;
+}
+
+@media screen and (min-width: 550px) {
+  .benefits ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 750px) {
+    .benefits ul {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+@media screen and (min-width: 940px) {
+  .benefits ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1080px) {
+    .benefits ul {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
