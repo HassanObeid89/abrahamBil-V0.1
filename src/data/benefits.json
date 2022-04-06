@@ -1,0 +1,28 @@
+
+[
+    {
+        "title":"Enklet",
+        "icon":"fa-solid fa-circle-check",
+        "description":"Vi värderar och testar din bil i nuvarande skick, du behöver inte tänka på några förberedelser"
+    },
+    {
+        "title":"Ärligt",
+        "icon":"fa-regular fa-handshake",
+        "description":"Är din bil korrekt beskriven står vi alltid för vårt bud. Undvik tråkiga överraskningar"
+    },
+    {
+        "title":"Tryggt",
+        "icon":"fa-brands fa-gratipay",
+        "description":"Vi löser dina lån åt dig och ser till att ägarbyten görs på direkten. Du behöver inte tänka på det administrativa"
+    },
+    {
+        "title":"Rättvist",
+        "icon":"fa-solid fa-clipboard-list",
+        "description":"Värderingarna görs alltid manuellt av våra kunniga värderingsmän. Du får alltid ett dagsaktuellt och unikt bud"
+    },
+    {
+        "title":"Snabbt",
+        "icon":"fa-solid fa-gauge-high",
+        "description":"Vi arbetar med digitala överföringar. Du har alltid pengarna på kontot innan du lämnar över bilen till oss"
+    }
+]
