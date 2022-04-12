@@ -1,0 +1,130 @@
+:root {
+  --first-color: rgb(142, 141, 141);
+  --input-color: #80868b;
+  --border-color: #dadce0;
+
+  --body-font: "Roboto", sans-serif;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.75rem;
+}
+
+*::before::after {
+  box-sizing: border-box;
+}
+
+.l-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 90vh;
+   margin-top: -30px; */
+}
+
+.form {
+  width: 360px;
+  padding: 4rem 2rem;
+}
+
+.formDiv {
+  position: relative;
+  height: 48px;
+  margin-bottom: 1.5rem;
+}
+
+.formInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: var(--normal-font-size);
+  border: 1px solid var(--border-color);
+  border-radius: 8rem;
+  outline: none;
+  padding: 1rem;
+  background: none;
+  z-index: 1;
+}
+
+.formLabel {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  padding: 0 0.25rem;
+  background-color: #fff;
+  color: var(--input-color);
+  font-size: var(--normal-font-size);
+  transition: 0.3s;
+}
+
+.error {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 45px;
+  margin-left: 15px;
+  color: red;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.formInput:focus + .formLabel {
+  top: -0.5rem;
+  left: 0.8rem;
+  color: #80868b;
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  z-index: 10;
+}
+
+.formInput:not(:placeholder-shown).formInput:not(:focus) + .formLabel {
+  top: -0.5rem;
+  left: 0.8rem;
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  z-index: 10;
+}
+
+.formInput:focus {
+  border: 1px solid var(--first-color);
+}
+
+@media (min-width: 900px) {
+  .form {
+    width: 500px;
+  }
+}
+
+.license-plate-search-plate {
+  position: absolute;
+  top: 0px;
+  left: 1.5px;
+  z-index: 1;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  height: calc(96%);
+  background-color: #1a73e8;
+  color: white;
+  font-weight: 900;
+  padding: 10px 15px 10px 15px;
+  border-bottom-left-radius: 8rem;
+  border-top-left-radius: 8rem;
+}
+
+.regnummer {
+  position: relative;
+  margin-bottom: 2px;
+}
+
+.regnummer label {
+  left: 3rem;
+}
+
+.regnummer .formInput {
+  width: 91%;
+  margin-left: 40px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.regnummer .formInput:focus + .formLabel {
+  left: 3.2rem;
+}
