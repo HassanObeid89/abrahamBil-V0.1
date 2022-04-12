@@ -12,7 +12,7 @@
 }
 
 .hero_container .slagen h1{
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 8px;
 }
 
@@ -21,11 +21,11 @@
 }
 
 .hero_container .slagen a {
-    width: 120px;
+    width: 100px;
     margin: 16px auto;
     border: none;
     background-color: rgb(232, 69, 69);
-    padding: 15px;
+    padding: 12px;
     border-radius: 60px;
     font-weight: bold;
     color: white;
