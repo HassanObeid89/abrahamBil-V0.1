@@ -2,7 +2,7 @@ import hero from "../assets/images/hero.png";
 export default function Hero() {
   return (
     <div className="hero_container">
-      <img src={hero} alt="" />
+      <img className="slide-in" src={hero} alt="" />
       <label className="slagen">
         <h1>Sälj Bilen Och Få Betalt Direkt!</h1>
         <span>Vi köper din bil oavsett skick.</span>
