@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import car from '../assets/images/car.png'
 import { Formik, Form } from "formik";
 import { TextField } from "./TextField";
 import * as Yup from "yup";
@@ -7,6 +8,14 @@ import ConfirmationModal from "./ConfirmationModal";
 import { Loader, Button, Icon } from "semantic-ui-react";
 
 export default function ContactForm() {
+//   const [isDesktop, setisDesktop] = useState(false);
+//   useEffect(() => {
+//     let test = window.screen.width 
+//     test > 700 ? setisDesktop(true):setisDesktop(false)
+  
+//   }, []);
+  
+// console.log(isDesktop)
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const schema = Yup.object().shape({
@@ -62,6 +71,7 @@ export default function ContactForm() {
     >
       {(formik) => (
         <div className="l-form">
+          <img className={window.screen.width < 700 ? "hide":null} src={car} alt=""/>
           <Form className="form" onSubmit={formik.handleSubmit}>
             <TextField label="Namn" name="Namn" type="text" />
             <TextField label="E-post" name="Epost" type="text" />
@@ -76,7 +86,6 @@ export default function ContactForm() {
             </div>
 
             <TextField label="Önskat Pris" name="OnskatPris" type="text" />
-            {/* <button type="submit" className="formButton">Skicka</button> */}
             <Button
               size={"large"}
               style={{

@@ -8,6 +8,16 @@
   --small-font-size: 0.75rem;
 }
 
+.l-form img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 60%;
+}
+
+.l-form .hide {
+  display: none;
+}
+
 *::before::after {
   box-sizing: border-box;
 }
