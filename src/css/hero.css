@@ -41,7 +41,29 @@
 }
 
 .hero_container img {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
   width: 60%;
+}
+
+.slide-in{
+    animation: slideMe .9s ease-in;
+}
+
+@keyframes slideMe{
+    0%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+
+@media (min-width: 900px){
+    .hero_container .slagen h1{
+        font-size: 2em;
+        font-weight: bolder;
+    }
+    
+    .hero_container .slagen span{
+        font-size: 1.5em;
+    }
 }
