@@ -11,7 +11,7 @@
 .l-form img {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  width: 60%;
+  width: 40%;
 }
 
 .l-form .hide {
@@ -106,7 +106,6 @@
 .license-plate-search-plate {
   position: absolute;
   top: 0px;
-  left: 1.5px;
   z-index: 1;
   font-size: 1.2rem;
   line-height: 1.65;
@@ -130,7 +129,7 @@
 
 .regnummer .formInput {
   width: 91%;
-  margin-left: 40px;
+  margin-left: 39px;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
