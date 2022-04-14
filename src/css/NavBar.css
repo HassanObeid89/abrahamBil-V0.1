@@ -8,6 +8,19 @@ nav {
   z-index: 30;
 }
 
+.contact {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+  background-color: black;
+}
+
+.contact a {
+  direction: none;
+  color: white;
+  font-weight: bold;
+}
+
 nav .logo {
   width: 180px;
 }
@@ -15,5 +28,12 @@ nav .logo {
 @media screen and (min-width: 550px) {
   nav .logo {
     width: 200px;
+  }
+  .contact {
+    justify-content: flex-end;
+  }
+
+  .contact a {
+    margin: 0 20px;
   }
 }
