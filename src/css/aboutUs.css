@@ -1,0 +1,67 @@
+.aboutUs img {
+  width: 100%;
+}
+
+.aboutUs h1 {
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin: 12px auto;
+}
+
+.aboutUs span {
+  font-size: 1em;
+  font-weight: bold;
+  max-width: 100px;
+  margin-top: 18px;
+}
+
+.aboutUs p {
+  font-size: 18px;
+  padding: 40px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 550px) {
+  
+}
+
+@media screen and (min-width: 750px) {
+    .aboutUs p {
+        font-size: 22px;
+        font-weight: 100;
+      }
+      .aboutUs h1 {
+        font-size: 1.4em;
+      }
+    
+      .aboutUs span {
+        font-size: 1.06em;
+        font-weight: bold;
+      }
+}
+
+@media screen and (min-width: 940px) {
+    .aboutUs {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+      }
+      .aboutUs img {
+        width: 500px;
+    }
+
+    .aboutUs article{
+        padding: 4rem 2rem;
+        margin-right: 35px;
+    }
+      .aboutUs p {
+          padding: 0;
+      }
+}
+
+@media screen and (min-width: 1080px) {
+    
+}

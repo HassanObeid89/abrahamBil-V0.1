@@ -6,11 +6,7 @@ function Footer() {
       <Segment className="segment"  style={{ padding: "2em 0em", backgroundColor:"rgb(233, 227, 227)" }}>
         <Container textAlign={"center"} text>
           <p>
-            # Defekta bilar köpes 
-            # bilar köpes # Köper bilar over hela Sverige 
-            # Vi köper din bil # Krockade bilar köpes # Sälja min bil 
-            # Köper alla bilar # Sälja din bil # Vi köper bilar # Alla
-            bilar köpes
+          © bilarköpes.se
           </p>
         </Container>
       </Segment>
